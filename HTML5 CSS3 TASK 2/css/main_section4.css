@@ -1,0 +1,56 @@
+.service_buttons{
+    list-style: none;
+    margin-top: 55px;
+    box-sizing: border-box;
+}
+
+.service_buttons > li {
+    display: inline;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+.service_buttons button{
+    height: 255px;
+    width: 255px;
+    box-sizing: border-box;
+    border: 1px solid rgb(229, 232, 237);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03),0px 12px 10px -6px rgba(154, 156, 165, 0.04),0px 30px 24px -10px rgba(154, 156, 165, 0.05),0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+}
+
+.service_buttons li:hover button{
+    transition-duration: 0.5s;
+    transition-property: background-color;
+    background-color: rgb(66, 69, 81);
+}
+
+.service_buttons li:hover h5{
+    color: white;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+.service_buttons h5{
+    transition-duration: 0.5s;
+    transition-property: color;
+    color:rgb(66, 69, 81);
+}
+
+.service_buttons i{
+    font-size: 60px;
+    color: rgb(255,90,48);
+    transition-duration: 0.5s;
+    transition-property: color;
+}
+
+.service_buttons li:hover i{
+    transition-duration: 0.5s;
+    transition-property: color;
+    color:white;
+}
+

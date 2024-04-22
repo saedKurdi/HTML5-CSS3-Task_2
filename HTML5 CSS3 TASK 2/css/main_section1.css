@@ -1,0 +1,153 @@
+.big_image_div{
+    height: 755px;
+    width: 100%;
+    background-image: url('../images/construction.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.colored_char{
+    color:rgb(255, 90, 48);
+}
+
+.special_h1{
+    margin-left: 110px;
+    padding-top: 200px;
+    color: white;
+    font-family: Ubuntu;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.special_pre{
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.button_list{
+    margin-left: 120px;
+    list-style-type: none;
+}
+
+.button_list > li {
+    display: inline;
+}
+
+.text_inside_btn{
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.special_btn1{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    margin-top: 20px;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.special_btn2{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    box-sizing: border-box;
+    background-color: rgb(255, 90, 48);
+    border-radius: 4px;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.special_btn1:hover{
+    transition-property: background-color,border-color;
+    border-color: rgb(255,90,48);
+    transition-duration: 0.5s;
+    background-color: rgb(255, 90, 48);
+}
+
+.special_btn2:hover{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    background-color: #ff3404;
+}
+
+.button_list > li{
+    margin-right: 20px;
+}
+
+.progress_bar_list{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 120px;
+    margin-top: 75px;
+}
+
+.progress_bar_list > li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.special_num{
+    color: gray;
+    font-family: Ubuntu;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    transition-property: color;
+    transition-duration: 0.5s;
+    
+}
+
+.deleted_underline{
+    text-decoration: none;
+}
+
+.progress_bar_list2{
+    list-style-type: none;;
+}
+
+.progress_bar_for_div{
+    height: 3px;
+    width: 150px;
+    display: inline-block;
+    background-color: gray;
+    border-radius: 15px;
+    border-width: 2px;
+    margin-bottom: 10px; 
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.progress_bar_list > li:hover p{
+    transition-property: color;
+    transition-duration: 0.5s;
+    color:white;
+}
+
+.progress_bar_list > li:hover div{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    background-color: white;
+}

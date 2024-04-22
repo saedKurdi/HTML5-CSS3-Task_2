@@ -1,0 +1,120 @@
+*{
+    margin:auto;
+    padding:0px;
+}
+
+.createx_header{
+    width: 104.5px;
+    height: 19.6px;
+    left: 0%;
+    right: 19.62%;  
+    top: 5.91%;
+    bottom: 5%;
+    color: rgb(30, 33, 44);
+    display: inline-block;
+    font-family: Ubuntu;
+     margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+    font-size: 26px;
+    letter-spacing: 1.2px;
+}
+
+.nav_style{
+    text-align: start;
+    box-sizing: border-box;
+    height: 90px;
+}
+
+.createx_link{
+    text-decoration: none;
+    text-align: start;
+}
+
+.custom_letter_for_header{
+    color:rgb(255, 90, 48);
+}
+
+.header_links{
+    display: inline;
+    list-style: none;
+    margin-left: 80px;
+}
+
+.header_links > li{
+    display: inline;
+    margin-right: 40px;
+}
+
+.header_links > li > a{
+    text-decoration: none;
+    font-family: Ubuntu;
+    color: rgb(66, 69, 81);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    display: inline;
+}
+
+.header_links > li:hover > a{
+    color: rgb(255, 90, 48);
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+.header_links_images{
+    list-style-type: none;
+    display: inline;
+    margin-left: 120px;
+}
+
+.header_links_images > li {
+    display: inline;
+    text-align: center;
+    vertical-align:bottom;
+    margin-right: 85px;
+}
+
+.header_links_images h6{
+    display: inline;
+    color: rgb(66, 69, 81);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    vertical-align: top;
+    letter-spacing: 0%;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+.header_links_images a{
+    text-decoration: none;
+}
+
+.div_{
+    display: inline;
+}
+
+.header_links_images p{
+    vertical-align: bottom;
+    display: inline;
+    margin-left: -45px;
+    color : rgb(66, 69, 81);
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+.header_links_images > li:hover h6{
+    color:rgb(255, 90, 48);
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+.header_links_images > li :hover p{
+    color:rgb(255, 90, 48);
+    transition-property: color;
+    transition-duration: 0.3s;
+}
